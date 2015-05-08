@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>boreale</name>
+	<creationDate>5 May 2015</creationDate>
+	<author>Paul-Rene Hebert</author>
+	<authorEmail>hebert.paulrene@jlitconsulting.ca</authorEmail>
+	<authorUrl>http://www.der-auftritt.de</authorUrl>
+	<copyright>Copyright (C) 2015 JLITConsulting, Inc. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.0.0</version>
+	<description>Boreale Template for Joomla 3.4</description>
+
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<filename>index.php</filename>
+		<filename>index-1.php</filename>
+		<filename>index-2.php</filename>
+		<filename>index-3.php</filename>
+		<filename>index-4.php</filename>
+		<filename>index-5.php</filename>
+		<filename>index-6.php</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+
+	<positions>
+		<position>debug</position>
+		<position>sitetitle</position>
+		<position>sitelabel</position>
+		<position>menu</position>
+		<position>showcase</position>
+		<position>box1</position>
+		<position>box2</position>
+		<position>box3</position>
+		<position>under-box-title</position>
+		<position>under-box-text</position>
+		<position>welcome</position>
+		<position>lastest events</position>
+		<position>our-teachers</position>
+		<position>map</position>
+		<position>copyright</position>
+		<position>contact-us</position>
+		<position>locations</position>
+		
+	</positions>
+
+	<!-- 	For core templates, we also install/uninstall the language files in the core language folders.
+	-->
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="logo_title" 
+					type="text"
+					label="Logo Title" 
+					description="Enter the logo title" 
+					filter="string" />
+
+				<field name="logo_title"  
+					type="text" 
+					default="ICI L'APPRENTISSAGE NE SE TERMINE JAMAIS"
+					label="Logo Text"
+					description="Enter the logo title"
+					filter="string" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
