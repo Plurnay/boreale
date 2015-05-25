@@ -56,31 +56,7 @@
             Here learning never ends</span></a>
         </h1>
           <nav>
-            <ul class="sf-menu">
-            <li class="current"><a href="index.html">Home</a>
-                <ul>
-                  <li><a href="#">About </a></li>
-                  <li><a href="#">News</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Blog</a></li>
-                  <li><a href="#">Contact</a>
-                    <ul>
-                      <li><a href="#">About </a></li>
-                      <li><a href="#">News</a></li>
-                      <li><a href="#">Services</a></li>
-                      <li><a href="#">Blog</a></li>
-                      <li><a href="#">Contact</a></li>
-                    </ul>
-                  </li>
-                </ul>
-                </li>
-              <li><a href="index-1.php">About</a></li>
-              <li><a href="index-2.php">Services</a></li>
-              <li><a href="index-3.php">gallery</a></li>
-              <li><a href="index-4.php">Blog</a></li>
-              <li><a href="index-5.php">Contact</a></li>
-            </ul>
-            <div class="clearfix"></div>
+            <jdoc:include type="modules" name="menu" style="none"/>
           </nav>
           </div>
       </div>
@@ -95,121 +71,46 @@
                           CONTENT
 =========================================================-->
 <section id="content">
-      <div class="slider_box">
-          <div class="slider_wrapper">
-              <div class=''>
-                  <div id="camera_wrap">
-                      <div data-src="<?php echo $this->baseUrl;?>/templates/<?php echo $this->template;?>/images/gall_pic1.jpg">
-                        <div class="caption fadeIn">
-                          <div class="container">
-                           <div class="row">
-                             <div class="grid_12">
-                              <p class="p1">Good start for your child</p>
-                              <p class="p2 max-with_1">
-                               Aenean nonummyendrerit maurhasellus portasce susci varius mi. Cum sociis natoque penatibus et mag dis parturient ontes nascetur ridiculus mus. Nulla du usce feugiat malesuada odio. Morbi nunc odio gravi.
-                              </p>
-                              <a class="btn-default mar_t_58" href="#">read more</a>
-                             </div>
-                           </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div data-src="<?php echo $this->baseUrl;?>/templates/<?php echo $this->template;?>/images/gall_pic2.jpg">
-                        <div class="caption fadeIn">
-                          <div class="container">
-                           <div class="row">
-                             <div class="grid_12">
-                              <p class="p1">A great place to learn</p>
-                              <p class="p2 max-with_1">
-                               Aenean nonummyendrerit maurhasellus portasce susci varius mi. Cum sociis natoque penatibus et mag dis parturient ontes nascetur ridiculus mus. Nulla du usce feugiat malesuada odio. Morbi nunc odio gravi.
-                              </p>
-                              <a class="btn-default mar_t_58" href="#">read more</a>
-                             </div>
-                           </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div data-src="<?php echo $this->baseUrl;?>/templates/<?php echo $this->template;?>/images/gall_pic3.jpg">
-                        <div class="caption fadeIn">
-                          <div class="container">
-                           <div class="row">
-                             <div class="grid_12">
-                              <p class="p1">The foundation of future</p>
-                              <p class="p2 max-with_1">
-                               Aenean nonummyendrerit maurhasellus portasce susci varius mi. Cum sociis natoque penatibus et mag dis parturient ontes nascetur ridiculus mus. Nulla du usce feugiat malesuada odio. Morbi nunc odio gravi.
-                              </p>
-                              <a class="btn-default mar_t_58" href="#">read more</a>
-                             </div>
-                           </div>
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-              </div> 
-          </div>
-      </div>
+	<jdoc:include type="modules" name="showcase" style="none" />
 
       <div class="container mar_t_-56">
           <div class="row perspective">        
             <div class="grid_4">
-                <div class="banner_1">
-                  <div class="pad_1">
-                   <h2>Principal notes</h2>
-                  <p class="">
-                   <a href="#" class="">
-                    Nummy nreriha sellrtsce scipitva.
-                   </a><br><br>
-                   Nummy nrerit uris. Pha sellrtsce scipitvarius mi. Cum sociistoque pentibus et magnis diarturtscetur rimulug maleada odioi dio gravida atcurus necuus a lorem
-                  cenas tristique ori ac sem. Duis ultrices pharetra gna. Donec accumsaalda ornec<br>sit amet eros. Lorem ipm do amt consc tetur aiing elit. Mauris fermentum tum magna laoreet aliquam leo. Ut te dolor dapbus eget elentu vel cursueifend elit. Aenean auctor wrna. Aliqua volutpat. 
-                  </p>
-                   <a class="btn-default btn_1" href="#">read more</a>
+              <div class="banner_1">
+                <div class="pad_1">
+                  <jdoc:include type="modules" name="box1" style="none" />
                 </div>
               </div>
-              </div>
+            </div>
               
-                          <div class="grid_4">
-                <div class="banner_2">
-                  <div class="pad_1">
-                   <h2>PROGRAMS FOR EDUCATORS</h2>
-                  <p class="">
-                   <a href="#" class="">
-                   Pha sellrtsce scipitvius mi.
-                   </a><br><br>
-                   Cum sociistoque pentibus et magnis diarturtscetur rimulug maleada odio dio gravida atcurus necuus a loremcenas tristique ori ac sem. Duis ultrices pharetra gna. Donec accumsaalda orneit amet eros. Lorem ipm do amt consc ter aiing elit. Mauris fermentum tum magnad laoreet aliam leo. Ut te dolor dap.<br>ibus eget elentu vel cursus eleifend elit. Aenean auctor wrna. Aliqua volutpat. Duis ac turpis. Integer rutrum ante eu lacuest um liber.
-                  </p>
-                   <a class="btn-default btn_1" href="#">read more</a>
-                </div>
-              </div>
-              </div>
+            <div class="grid_4">
+			  <div class="banner_2">
+			    <div class="pad_1">
+			     <jdoc:include type="modules" name="box2" style="none" />
+			    </div>
+			  </div>
+		    </div>
               
-                          <div class="grid_4">
-                <div class="banner_3">
-                  <div class="pad_1">
-                   <h2>DYNAMIC CLASSROOMS</h2>
-                  <p class="">
-                   <a href="#" class="">
-                    Cum sociistoque pentibus et mag.
-                   </a><br><br>
-                  Nummy nrerit uris. Pha sellrtsce scipitvarius mi. Cum sociistoque pentibus et magnis diarturtscetur rimulug maleada odio dio gravida atcurus necuus a lore<br>mcenas tristique ori ac sem. Duis ultrices pharetra gna. Donec accumsaalda ort eros. Lorem ipm do amt consc tetr aiing elit. Mauris fermentutum magn<br>ed laoreet aliquam leo. Ut te dolor dabus eg<br>et elentu vel cursus eleifend elit. Aenean auctor wrna. Aliqua volutpat. Duis ac turpis.
-                  </p>
-                   <a class="btn-default btn_1" href="#">read more</a>
+            <div class="grid_4">
+              <div class="banner_3">
+                <div class="pad_1">
+                   <jdoc:include type="modules" name="box3" style="none" />
                 </div>
               </div>
-              </div>
+            </div>
           </div>
       </div>
  
     <div class="container">
-     <div class="wrapper1">
-      <div class="row ">
-        <div class="grid_12 perspective">
+      <div class="wrapper1">
+        <div class="row ">
+          <div class="grid_12 perspective">
             <h2>Harmonious development of your child’s talents</h2>
-        <p class="p4 mar_t_15">Aenean nonummyendrerit maurhasellus porta. Fusce susct varius mi. Cum sociis natoque penatibus et mag dis parturient ontes nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio gravida atcursus nec luctus a lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. </p>
-
+			<p class="p4 mar_t_15">Aenean nonummyendrerit maurhasellus porta. Fusce susct varius mi. Cum sociis natoque penatibus et mag dis parturient ontes nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio gravida atcursus nec luctus a lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
   
     <div class="container">
     <div class="wrapper2">
@@ -301,7 +202,14 @@
     <a class="btn-link s3" href="#">view all teachers</a>
   </div>
 </section>
-
+<section class="content_calendar">
+  <jdoc:include type="modules" name="calendar" style="none" />
+</section>
+<section class="content_gallery">
+  <jdoc:include type="modules" name="gallery" style="none" />
+  <jdoc:include type="message" />
+  <jdoc:include type="component" />
+</section>
 
 <section class="content_map">
   <div class="google-map-api"> 
@@ -489,7 +397,7 @@
   ]
              
             var markerIcon = { 
-                url: "images/gmap_marker.png", 
+                url: "<?php echo $this->baseUrl;?>/templates/<?php echo $this->template;?>/images/gmap_marker.png", 
                 size: new google.maps.Size(42, 65), 
                 origin: new google.maps.Point(0,0), 
                 anchor: new google.maps.Point(-180, 50) 

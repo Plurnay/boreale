@@ -5,20 +5,20 @@ function include(url){
 
 /* greensock.JS
 ========================================================*/
-include('js/greensock/TweenMax.min.js');
+include('templates/boreale/js/greensock/TweenMax.min.js');
 
 /* cookie.JS
 ========================================================*/
-include('js/jquery.cookie.js');
+include('templates/boreale/js/jquery.cookie.js');
 
 
 /* DEVICE.JS
 ========================================================*/
-include('js/device.min.js');
+include('templates/boreale/js/device.min.js');
 
 /* Stick up menu
 ========================================================*/
-include('js/tmstickup.js');
+include('templates/boreale/js/tmstickup.js');
 $(window).load(function() { 
   if ($('html').hasClass('desktop')) {
       $('#stuck_container').TMStickUp({
@@ -28,20 +28,20 @@ $(window).load(function() {
 
 /* Easing library
 ========================================================*/
-include('js/jquery.easing.1.3.js');
+include('templates/boreale/js/jquery.easing.1.3.js');
 
 
 /* ToTop
 ========================================================*/
-include('js/jquery.ui.totop.js');
+include('templates/boreale/js/jquery.ui.totop.js');
 $(function () {   
   $().UItoTop({ easingType: 'easeOutQuart' });
 });
 
 /* DEVICE.JS AND SMOOTH SCROLLIG
 ========================================================*/
-include('js/jquery.mousewheel.min.js');
-include('js/jquery.simplr.smoothscroll.min.js');
+include('templates/boreale/js/jquery.mousewheel.min.js');
+include('templates/boreale/js/jquery.simplr.smoothscroll.min.js');
 $(function () { 
   if ($('html').hasClass('desktop')) {
       $.srSmoothscroll({
@@ -50,7 +50,7 @@ $(function () {
       });
   }   
 });
-include('js/jquery.superscrollorama.js');
+include('templates/boreale/js/jquery.superscrollorama.js');
 $(document).ready(function() { 
   scrolloramaInit();
 })
@@ -98,7 +98,7 @@ function scrolloramaInit(){
 
 // /* Stellar.js
 // ========================================================*/
-// include('js/stellar/jquery.stellar.js');
+// include('templates/boreale/js/js/stellar/jquery.stellar.js');
 // $(document).ready(function() { 
 //   if ($('html').hasClass('desktop')) {
 //       $.stellar({
@@ -122,8 +122,8 @@ $(document).ready(function() {
 
 /* Superfish menu
 ========================================================*/
-include('js/superfish.js');
-include('js/jquery.mobilemenu.js');
+include('templates/boreale/js/superfish.js');
+include('templates/boreale/js/jquery.mobilemenu.js');
 
 
 /* Orientation tablet fix

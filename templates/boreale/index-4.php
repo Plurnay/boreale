@@ -31,12 +31,12 @@
       <div class="row">
       <div class="grid_12">
         <h1 class="">
-          <a href="index.html">elementary school<br><span class="">
+          <a href="index.php">elementary school<br><span class="">
             Here learning never ends</span></a>
         </h1>
           <nav>
             <ul class="sf-menu">
-            <li><a href="index.html">Home</a>
+            <li><a href="index.php">Home</a>
                 <ul>
                   <li><a href="#">About </a></li>
                   <li><a href="#">News</a></li>
@@ -53,11 +53,11 @@
                   </li>
                 </ul>
                 </li>
-              <li><a href="index-1.html">About</a></li>
-              <li><a href="index-2.html">Services</a></li>
-              <li><a href="index-3.html">gallery</a></li>
-              <li  class="current"><a href="index-4.html">Blog</a></li>
-              <li><a href="index-5.html">Contact</a></li>
+              <li><a href="index-1.php">About</a></li>
+              <li><a href="index-2.php">Services</a></li>
+              <li><a href="index-3.php">gallery</a></li>
+              <li  class="current"><a href="index-4.php">Blog</a></li>
+              <li><a href="index-5.php">Contact</a></li>
             </ul>
             <div class="clearfix"></div>
           </nav>
